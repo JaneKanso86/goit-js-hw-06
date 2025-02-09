@@ -1,5 +1,7 @@
 
 class Storage {
+  #items;
+  
     constructor(initialItems) {
       this.#items = initialItems;
     }
